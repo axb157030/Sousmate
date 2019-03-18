@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="menuBar.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src ="cookAPI.js"></script>
+  <script>
+  window.onload=function(){
+  var video;
+		var foodImage=localStorage.getItem("foodImage");
+		var foodTitle =localStorage.getItem("foodTitle");
+		var i1 =localStorage.getItem("i1");
+		var i2 =localStorage.getItem("i2");
+		var i3 =localStorage.getItem("i3");
+		var i4 =localStorage.getItem("i4");
+		var i5 =localStorage.getItem("i5");
+		var i6 =localStorage.getItem("i6");
+		var i7 =localStorage.getItem("i7");
+		var i8 =localStorage.getItem("i8");
+		var i9 =localStorage.getItem("i9");
+		var i10 =localStorage.getItem("i10");
+		var i11 =localStorage.getItem("i11");
+		var i12 =localStorage.getItem("i12");
+		var i13 =localStorage.getItem("i13");
+		var i14 =localStorage.getItem("i14");
+		var i15 =localStorage.getItem("i15");
+		var i16 =localStorage.getItem("i16");
+		var i17 =localStorage.getItem("i17");
+		var i18 =localStorage.getItem("i18");
+		var i19 =localStorage.getItem("i19");
+		var i20 =localStorage.getItem("i20");
+		var Instructions =localStorage.getItem("Instructions");
+		var cookVid =localStorage.getItem("cookVid");
+		$("#foodTitle").text(foodTitle);
+		$("#foodImg").attr('src',foodImage);
+		$("#ingred1").text(i1);
+		$("#ingred2").text(i2);
+		$("#ingred3").text(i3);
+		$("#ingred4").text(i4);
+		$("#ingred5").text(i5);
+		$("#ingred6").text(i6);
+		$("#ingred7").text(i7);
+		$("#ingred8").text(i8);
+		$("#ingred9").text(i9);
+		$("#ingred10").text(i10);
+		$("#ingred11").text(i11);
+		$("#ingred12").text(i12);
+		$("#ingred13").text(i13 );
+		$("#ingred14").text(i14);
+		$("#ingred15").text(i15);
+		$("#ingred16").text(i16);
+		$("#ingred17").text(i17);
+		$("#ingred18").text(i18);
+		$("#ingred19").text(i19);
+		$("#ingred20").text(i20);
+		Instructions = Instructions.replace(/\n/g, "<br />");
+		$("#Instructions p").html(Instructions);
+		$("#cookVid").attr('src',"https://www.youtube.com/embed/" +cookVid);
+		
+	}
+
+	
+
+  </script>
+  <style>
+  
+body {
+margin-left: 25px;
+}
+  
+  #foodImg{
+  margin: auto;
+  width: 50%;
+  height: 500px;
+  }
+  #Ingredients span{
+  text-align: center;
+ 
+  }
+  
+  #cookVid{
+  margin: auto;
+  }
+  
+  </style>
+ 
+ </head>
+ <body>
+ <div id= "index_bar"> <!-- The elements that compose the navigation bar is wrapped under a section element with an id so that the styling for it will only be applied for it -->
+<ul><li id= "sousI">SousMate</li>
+  <li><a id = "newsI" href="SousHome.html">News</a></li>
+  <li><a href="SousIndex.html">About</a></li>
+  <li><a href="recipInstruc.html">Recipes</a></li>
+  <li><a href="SousContactold.html">Contact</a></li>
+</ul>
+</div>
+<br/>
+ <h1 id = "foodTitle"></h1>
+ 
+ <img id = "foodImg" />
+ 
+ <h2 id = "Ingredients">Ingredients</h1>
+ <ul>
+ 
+ <li><span id = "ingred1"></span></li>
+  <li><span id = "ingred2"></span></li>
+  <li><span id = "ingred3"></span></li>
+  <li><span id = "ingred4"></span></li>
+  <li><span id = "ingred5"></span></li>
+  <li><span id = "ingred6"></span></li>
+  <li><span id = "ingred7"></span></li>
+  <li><span id = "ingred8"></span></li>
+  <li><span id = "ingred9"></span></li>
+  <li><span id = "ingred10"></span></li>
+  <li><span id = "ingred11"></span></li>
+  <li><span id = "ingred12"></span></li>
+  <li><span id = "ingred13"></span></li>
+  <li><span id = "ingred14"></span></li>
+  <li><span id = "ingred15"></span></li>
+  <li><span id = "ingred16"></span></li>
+  <li><span id = "ingred17"></span></li>
+  <li><span id = "ingred18"></span></li>
+  <li><span id = "ingred19"></span></li>
+  <li><span id = "ingred20"></span></li>
+ </ul>
+ <div id = "Instructions">
+ <h1>Instruction</h1>
+ <p></p>
+ </div>
+ 
+<iframe  id = "cookVid" width="500" height="500">
+</iframe>
+<footer>
+<ul>
+  <li><a  href="SousHome">News</a></li>
+  <li><a href="SousIndex.html">About</a></li>
+  <li id ="recipe"><a href="recipInstruc.html">Recipes</a></li>
+  <li><a href="SousContactold">Contact Us</a></li>
+</ul>
+<br/>
+</footer>
+<span> &copy; 2020</span>
+ </body>
