@@ -1,0 +1,142 @@
+/* Outlines submit buttons, text input, the index bar, the footer should be stylized.*/
+ul {
+  list-style-type: none;
+}
+
+h1 {
+color: LightCoral;
+}
+
+h2 {
+color: LightCoral;
+}
+	
+	
+#index_bar {
+	padding: 18px 18px 13px;
+	box-sizing: border-box;
+	width: 100%;
+	border-radius: 4px;
+	border: none;
+	position: fixed;
+	background-color: #ffffff;  /*#f9fce8;*/
+	margin: 0;
+	opacity: .9;
+	z-index: 1;
+	
+}
+
+
+#sousI {
+	
+	font-size: 24px;
+	color: #FF8080;
+	padding-right: 20px;
+}
+
+#index_bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#index_bar li {
+  float: left;
+}
+
+#index_bar li a {
+	color: SandyBrown;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  padding: 14px 16px;
+  text-decoration: none;
+ border-left: 1px solid;
+
+}
+
+ #index_bar #newsI {
+  border-style: none;
+}
+
+ #index_bar li a:hover {
+  color: red;
+}
+
+#index_bar #recipe a:hover {
+  color: 	#32CD32;
+}
+
+a {
+	text-decoration: none;
+	color: #F08080;
+}
+
+a:hover {
+	color: #ff0000;
+}
+* {
+font-family: futura-pt, Baskerville Old Face, san-serif;
+}
+
+body { 
+
+background:  #ffffff; /*#f9fce8; /* How come changing where these {} located change css */
+font-family: futura-pt, Baskerville Old Face, san-serif;
+padding: 0;
+margin: 0;
+
+}
+
+footer  li a:hover{
+color: red;
+}
+
+footer ul {
+list-style-type: none;
+}
+
+footer  li a{
+	color: SandyBrown;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+
+
+input[type=submit] {
+  background-color: #FF8080;
+  color: white;
+  padding: 10px;
+  display: inline;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttonSub {
+	background-color: #FF8080;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  display: block;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #FF0842;
+  transition: background-color .5s;
+  
+  }
+  
+ input[type="text"] { /* Outlining how text elements should be styled */
+padding: 10px;
+border: none;
+border-radius: 4px;
+}
+  
+   

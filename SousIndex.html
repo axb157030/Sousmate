@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="menuBar.css">
+<link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src ="sousIndexAni.js"></script>
+<script src ="cookAPI.js"></script>
+<script>
+$("#recipeSubmit").click(function(e){ 
+	var form = new FormData(document.getElementById("form"));
+	var recipe = formWeth.get("nameRecipe");
+	console.log("recipe upload ", recipe);
+	url = "https://www.themealdb.com/api/json/v1/1/search.php?s=" + recipe;
+	video = data.meals[0].strYoutube;
+	video = video.substr(32, 43);
+	e.preventDefault();
+
+	$.getJSON(url, function (data) {
+	
+		sendRecipeData(data)
+		window.open('recipInstruc.html', '_blank');
+		
+		});
+	});
+	function sendRecipeData(data)
+	{
+		var video;
+		video = data.meals[0].strYoutube;
+		video = video.substr(32, 43);
+		localStorage.setItem("foodTitle", data.meals[0].strMeal);
+		localStorage.setItem("foodImage", data.meals[0].strMealThumb);
+		localStorage.setItem("i1", data.meals[0].strMeasure1 + " " +  data.meals[0].strIngredient1);
+		localStorage.setItem("i2", data.meals[0].strMeasure2 + " " +  data.meals[0].strIngredient2);
+		localStorage.setItem("i3", data.meals[0].strMeasure3 + " " +  data.meals[0].strIngredient3);
+		localStorage.setItem("i4", data.meals[0].strMeasure4 + " " +  data.meals[0].strIngredient4);
+		localStorage.setItem("i5", data.meals[0].strMeasure5 + " " +  data.meals[0].strIngredient5);
+		localStorage.setItem("i6", data.meals[0].strMeasure6 + " " +  data.meals[0].strIngredient6);
+		localStorage.setItem("i7", data.meals[0].strMeasure7 + " " +  data.meals[0].strIngredient7);
+		localStorage.setItem("i9", data.meals[0].strMeasure8 + " " +  data.meals[0].strIngredient8);
+		localStorage.setItem("i10", data.meals[0].strMeasure10 + " " +  data.meals[0].strIngredient10);
+		localStorage.setItem("i11", data.meals[0].strMeasure11 + " " +  data.meals[0].strIngredient11);
+		localStorage.setItem("i12", data.meals[0].strMeasure12 + " " +  data.meals[0].strIngredient12);
+		localStorage.setItem("i13", data.meals[0].strMeasure13 + " " +  data.meals[0].strIngredient13);
+		localStorage.setItem("i14", data.meals[0].strMeasure14 + " " +  data.meals[0].strIngredient14);
+		localStorage.setItem("i15", data.meals[0].strMeasure15 + " " +  data.meals[0].strIngredient15);
+		localStorage.setItem("i16", data.meals[0].strMeasure16 + " " +  data.meals[0].strIngredient16);
+		localStorage.setItem("i17", data.meals[0].strMeasure17 + " " +  data.meals[0].strIngredient17);
+		localStorage.setItem("i18", data.meals[0].strMeasure18 + " " +  data.meals[0].strIngredient18);
+		localStorage.setItem("i19", data.meals[0].strMeasure19 + " " +  data.meals[0].strIngredient19);
+		localStorage.setItem("i20", data.meals[0].strMeasure20 + " " +  data.meals[0].strIngredient20);
+		
+		localStorage.setItem("Instructions", data.meals[0].strInstructions);
+		localStorage.setItem("cookVid", video);
+
+		
+	}		
+</script>
+
+<!--https://fontawesome.com/icons/address-book?style=regular-->
+<style>
+#hookInd {
+width: 100%;
+height: 500px;
+}
+
+#hookInd img {
+
+border-sizing: border-box;
+width: 105%;
+height: 500px;
+position: relative;
+filter:brightness(50%);
+
+}
+
+#hookInd span {
+position: relative;
+top: -250px;
+left: 30%;
+text-align: center;
+font-size: 3em;
+color: #ffffff;
+word-spacing: .2em;
+
+font-family: san-serif;
+}
+
+ .About h1  { /* Apparently with an id, applying a style rule to a particular element only when it lies inside a particular element with an id does not work*/
+color: 	#F08080; /* Its overwirted If I don;t add style in the h1 element to forcibly change its color */
+text-align: center;
+margin: auto;
+}
+
+.About p {
+text-align: center;
+}
+
+
+
+#clipGirl  {
+width:50%; 
+height: 500px;
+float: left;
+padding: 0;
+
+}
+
+
+#AboutTe {
+width: 50%;
+background-color: white; 
+display: flex; 
+flex: auto; 
+height: 500px;
+}
+
+.About {
+width: 100%;
+background-color: white;
+border: none;
+border-radius: 4px;
+}
+
+#whatSous p {
+width: 20%;
+float: left;
+text-align:center;
+margin: 2px 25px;
+}
+
+#whatSous i {
+width: 20%;
+float: left;
+text-align:center;
+margin: 8px 25px;
+transform: scale(2);
+}
+
+#whatSous .howto 
+{
+text-align:center;
+font-weight: 100;
+width: 20%;
+float: left;
+margin: 2px 25px;
+font-weight: 100;
+font-size: 1.5em;
+}
+
+#getHow h3 {
+text-align:center;
+font-weight: 100;
+font-size: 1.5em;
+}
+
+ #imgClock {
+ width: 100%;
+ height: 500px;
+ background-color: #FFFFFF;
+ border-radius: 4px;
+ margin: 10px auto;
+ position: relative;
+ }
+#imgClock img{
+display: block;
+margin: 0 auto;
+width: 50%;
+height: 500px;
+}
+
+#danClock
+{
+position: absolute;
+width: 25%;
+height: 120px;
+border: none;
+background-color:#ffffff;
+top: 10px; /* If this is not set other elements can change position element is from top */
+right: 15px;
+border-radius: 4px;
+opacity: .7;
+text-align: center;
+
+}
+#danClock span
+{
+line-height: 120px; /*This code is quite repeititive */
+font-size: 1.5em;
+}
+
+#danClock p {
+font-size: 1em;
+}
+
+
+#signUp {
+margin-top: 50px;
+background-color: white;
+border: none;
+border-radius: 4px;
+border-sizing: border-box;
+width: 100%;
+padding: 15px;
+position: relative;
+
+}
+#signUp [type="text"] {
+border:none;
+}
+#signUp input[type=submit] {
+display: inline;
+
+
+}
+
+
+  
+}
+
+
+
+
+
+/*Add animation to your upload button.
+https://d3atagt0rnqk7k.cloudfront.net/wp-content/uploads/2017/09/28134754/mistakes-cooking-edibles-1280x800.jpg*/
+
+</style>
+
+
+
+</head>
+<body>
+<!-- https://stackoverflow.com/questions/5135019/css-opacity-only-to-background-color-not-the-text-on-it#5135033 to make index opaque. see through -->
+
+<div id= "index_bar"> <!-- The elements that compose the navigation bar is wrapped under a section element with an id so that the styling for it will only be applied for it -->
+<ul><li id= "sousI" ng-show = "shr">SousMate</li>
+  <li ><a id = "newsI" href="SousHome.html">News</a></li>
+  <li><a href="SousIndex.html">About</a></li>
+  <li id = "recipe"><a href="recipInstruc.html">Recipes</a></li>
+  <li><a href="SousContactold.html">Contact</a></li>
+</ul>
+</div>
+<br/>
+<br/>
+<br/>
+
+<div id ="hookInd"><img src = "https://media.self.com/photos/5a033d24812a86564c4793a2/2:1/pass/mealkits.jpg" alt = "bowl of red macaroni ans three sandwitches to the right"/>
+<span>Want <i>Any</i> Food Delivered To Your Door</span>
+</div>
+
+
+<!--https://www.thekitchn.com/how-color-affects-your-percept-96524 -->
+<!-- Webpage focus on making grain dishes -->
+<div  class =  "About">
+<img  id = "clipGirl" src="https://101clipart.com/wp-content/uploads/02/Girl%20Cooking%20Clipart%2002.jpg"/>
+<!-- How do you put padding between the image and the text in the div whose class name is About? By forcibly making block elements
+inline with float, there seems to be no way to put those "block" elements horizantally spaced out. -->
+<h1 >About</h1>
+<div id  = "AboutTe" > <!-- How do you apply css styling in <sty -->
+<!-- Want <i>any</i> food you want delivered to your door.  Structure like http://internetoftutors.com/--->
+<p style= "padding: 0 20px;"><span style= "font-size: 1.5em;" >Sousmate</span> is a kitchen aid, helping you get the food you want
+delivered to your doors. You can upload your favorite recipes, which Sousmate will display for you cooking that recipe in a step-by-step fashion. 
+Sousmate will track the cooking time for foods, and will alert you when certain periods of time have elapsed. Under your discretion sousmate will order that food to be
+delivered to you.</p>
+</div>
+
+</div>
+<div id = "whatSous">
+
+<span id = "getHow"><h3>How it Works</h3></span>
+<span class = "howto">Upload Recipe</span>
+<span class = "howto">Check them out <a href = "SousRecipe.html">here</a></span>
+<span class = "howto">Contact us</span>
+<span class = "howto">Payment</span> <br/>
+<i class="far fa-arrow-alt-circle-up"></i>
+<i class="far fa-address-book"></i>
+<i class="fas fa-gift"></i>
+<i class="fas fa-dollar-sign"></i>
+<p>You can do this <a href = "#signUp">here</a></p>
+
+ <p>You will see them in a step-by-step fashion</p>
+<p>If you want your recipe to be made and delivered to you, you can contact us <a href = "SousContact.html">here</a> </p><p>If you ordered us to make and deliver food to you, we will send you a monthly bill</p>
+</div>
+<div style = "clear:both;">
+</div>
+<div id = "imgClock">
+<img src = "https://i5.walmartimages.com/asr/d3d8b574-a52e-40d0-9983-cad106ef899b_1.745d8e1c2faaee25f70cf4ba47603d59.jpeg" alt = "Alarm Clock"/>
+<div id = "danClock"><span>Tracks Cooking Time</span><br/><p>Sousmate will track the cooking time for foods, and will alert users when certain periods of time have elapsed</p></div>
+</div>
+
+<div id = "signUp">
+<label class = "col-25" id= "recipeTit">Send your Recipe</label>
+		<input type="text" name="name" placeholder=" your food.." id = "nameRecipe"><input id = "recipeSubmit" type="submit" value="Upload" ></div>
+<footer>
+<ul>
+  <li><a  href="SousHome">News</a></li>
+  <li><a href="SousIndex.html">About</a></li>
+  <li id ="recipe"><a href="recipInstruc.html">Recipes</a></li>
+  <li><a href="SousContactold">Contact Us</a></li>
+</ul>
+<br/>
+</footer>
+<span> &copy; 2020</span>
+</body>
+</html>
