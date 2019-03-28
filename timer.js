@@ -23,9 +23,7 @@ edit = true;
 	{	
 		timeBox.style.visibility = 'visible';
 		timeBox.style.top = "50px";
-		timeBox.style.transition = "top 1s";
-		
-		
+		timeBox.style.transition = "top 1s";		
 
 	}
 //console.log("on");
