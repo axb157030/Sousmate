@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="menuBar.css">
+<link rel="stylesheet" type="text/css" href="SousIndexStyle.css">
+<link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src ="sousIndexAni.js"></script>
+<script src ="cookAPI.js"></script>
+<script src ="SousIndexGet.js"></script>
+
+
+</head>
+<body>
+
+
+<div id= "index_bar"> 
+<ul><li id= "sousI" ng-show = "shr">SousMate</li>
+  <li ><a id = "newsI" href="SousHome.html">News</a></li>
+  <li><a href="SousIndex.html">About</a></li>
+  <li id = "recipe"><a href="recipInstruc.html">Recipes</a></li>
+  <li><a href="timer.html">Timer</a></li>
+  <li><a href="SousContactold.html">Contact</a></li>
+</ul>
+</div>
+<br/>
+<br/>
+<br/>
+
+<div id ="hookInd"><img src = "https://media.self.com/photos/5a033d24812a86564c4793a2/2:1/pass/mealkits.jpg" alt = "bowl of red macaroni ans three sandwitches to the right"/>
+<span>Want <i>Any</i> Food Delivered To Your Door</span>
+</div>
+
+
+<!--https://www.thekitchn.com/how-color-affects-your-percept-96524 -->
+<!-- Webpage focus on making grain dishes -->
+<div  class =  "About">
+<img  id = "clipGirl" src="https://101clipart.com/wp-content/uploads/02/Girl%20Cooking%20Clipart%2002.jpg"/>
+<!-- How do you put padding between the image and the text in the div whose class name is About? By forcibly making block elements
+inline with float, there seems to be no way to put those "block" elements horizantally spaced out. -->
+<h1 >About</h1>
+<div id  = "AboutTe" > <!-- How do you apply css styling in <sty -->
+<!-- Want <i>any</i> food you want delivered to your door.  Structure like http://internetoftutors.com/--->
+<p style= "padding: 0 20px;"><span style= "font-size: 1.5em;" >Sousmate</span> is a kitchen aid, helping you get the food you want
+delivered to your doors. You can upload your favorite recipes, which Sousmate will display for you cooking that recipe in a step-by-step fashion. 
+Sousmate will track the cooking time for foods, and will alert you when certain periods of time have elapsed. Under your discretion sousmate will order that food to be
+delivered to you.</p>
+</div>
+
+</div>
+<div id = "whatSous">
+
+<span id = "getHow"><h3>How it Works</h3></span>
+<span class = "howto">Upload Recipe</span>
+<span class = "howto">Check them out <a href = "SousRecipe.html">here</a></span>
+<span class = "howto">Contact us</span>
+<span class = "howto">Payment</span> <br/>
+<i class="far fa-arrow-alt-circle-up"></i>
+<i class="far fa-address-book"></i>
+<i class="fas fa-gift"></i>
+<i class="fas fa-dollar-sign"></i>
+<p>You can do this <a href = "#signUp">here</a></p>
+
+ <p>You will see them in a step-by-step fashion</p>
+<p>If you want your recipe to be made and delivered to you, you can contact us <a href = "SousContact.html">here</a> </p><p>If you ordered us to make and deliver food to you, we will send you a monthly bill</p>
+</div>
+<div style = "clear:both;">
+</div>
+<div id = "imgClock">
+<img src = "https://i5.walmartimages.com/asr/d3d8b574-a52e-40d0-9983-cad106ef899b_1.745d8e1c2faaee25f70cf4ba47603d59.jpeg" alt = "Alarm Clock"/>
+<div id = "danClock"><span>Tracks Cooking Time</span><br/><p>Sousmate will track the cooking time for foods, and will alert users when certain periods of time have elapsed</p></div>
+</div>
+
+<div id = "signUp">
+<label class = "col-25" id= "recipeTit">Send your Recipe</label>
+		<input type="text" name="name" placeholder=" your food.." id = "nameRecipe"><input id = "recipeSubmit" type="submit" value="Upload" ></div>
+<footer>
+<ul>
+  <li><a  href="SousHome">News</a></li>
+  <li><a href="SousIndex.html">About</a></li>
+  <li id ="recipe"><a href="recipInstruc.html">Recipes</a></li>
+  <li><a href="timer.html">Timer</a></li>
+  <li><a href="SousContactold">Contact Us</a></li>
+</ul>
+<br/>
+</footer>
+<span> &copy; 2020</span>
+</body>
+</html>
