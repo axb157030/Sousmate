@@ -1,0 +1,167 @@
+/*SousIndexStyle CSS of SousIndex.html. It defines the style of the about page of the website */
+
+#hookInd {
+width: 100%;
+height: 500px;
+}
+
+#hookInd img {
+
+border-sizing: border-box;
+width: 105%;
+height: 500px;
+position: relative;
+filter:brightness(50%);
+
+}
+
+#hookInd span {
+position: relative;
+top: -250px;
+left: 30%;
+text-align: center;
+font-size: 3em;
+color: #ffffff;
+word-spacing: .2em;
+
+font-family: san-serif;
+}
+
+ .About h1  { /* Apparently with an id, applying a style rule to a particular element only when it lies inside a particular element with an id does not work*/
+color: 	#F08080; /* Its overwirted If I don;t add style in the h1 element to forcibly change its color */
+text-align: center;
+margin: auto;
+}
+
+.About p {
+text-align: center;
+}
+
+
+
+#clipGirl  {
+width:50%; 
+height: 500px;
+float: left;
+padding: 0;
+
+}
+
+
+#AboutTe {
+width: 50%;
+background-color: white; 
+display: flex; 
+flex: auto; 
+height: 500px;
+}
+
+.About {
+width: 100%;
+background-color: white;
+border: none;
+border-radius: 4px;
+}
+
+#whatSous p {
+width: 20%;
+float: left;
+text-align:center;
+margin: 2px 25px;
+}
+
+#whatSous i {
+width: 20%;
+float: left;
+text-align:center;
+margin: 8px 25px;
+transform: scale(2);
+}
+
+#whatSous .howto 
+{
+text-align:center;
+font-weight: 100;
+width: 20%;
+float: left;
+margin: 2px 25px;
+font-weight: 100;
+font-size: 1.5em;
+}
+
+#getHow h3 {
+text-align:center;
+font-weight: 100;
+font-size: 1.5em;
+}
+
+ #imgClock {
+ width: 100%;
+ height: 500px;
+ background-color: #FFFFFF;
+ border-radius: 4px;
+ margin: 10px auto;
+ position: relative;
+ }
+#imgClock img{
+display: block;
+margin: 0 auto;
+width: 50%;
+height: 500px;
+}
+
+#danClock
+{
+position: absolute;
+width: 25%;
+height: 120px;
+border: none;
+background-color:#ffffff;
+top: 10px; /* If this is not set other elements can change position element is from top */
+right: 15px;
+border-radius: 4px;
+opacity: .7;
+text-align: center;
+
+}
+#danClock span
+{
+line-height: 120px; /*This code is quite repeititive */
+font-size: 1.5em;
+}
+
+#danClock p {
+font-size: 1em;
+}
+
+
+#signUp {
+margin-top: 50px;
+background-color: white;
+border: none;
+border-radius: 4px;
+border-sizing: border-box;
+width: 100%;
+padding: 15px;
+position: relative;
+
+}
+#signUp [type="text"] {
+border:none;
+}
+#signUp input[type=submit] {
+display: inline;
+
+
+}
+
+
+  
+
+
+
+
+
+
+/*Add animation to your upload button.
+https://d3atagt0rnqk7k.cloudfront.net/wp-content/uploads/2017/09/28134754/mistakes-cooking-edibles-1280x800.jpg*/
