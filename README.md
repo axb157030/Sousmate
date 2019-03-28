@@ -1,6 +1,6 @@
 # Sousmate 
 * [View Website](https://axb157030.github.io/Sousmate/SousIndex.html)
-___
+__
 Sousmate is an interactive user friendly website that works with the MealDB API to send users recipes in a step by step manner upon request. You can find the MealDB API here, https://www.themealdb.com/api.php. It has a timer the user can set to measure the time needed to complete specfic steps of a recipe. 
 
 # Description
