@@ -1,7 +1,13 @@
-# Sousmate is an interactive user friendly website that works with the MealDB API to send users recipes in a step by step manner upon request. You can find the MealDB API here, https://www.themealdb.com/api.php. It has a timer the user can set to measure the time needed to complete specfic steps of a recipe. 
+# Sousmate 
+---
+Sousmate is an interactive user friendly website that works with the MealDB API to send users recipes in a step by step manner upon request. You can find the MealDB API here, https://www.themealdb.com/api.php. It has a timer the user can set to measure the time needed to complete specfic steps of a recipe. 
 
+# Description
+---
+This project was initally assigned to me by Revature through its RevaturePro online program you can find here, https://revature.com/learn-to-code/. As I worked more on the project I decided to add my own unique touches to it. Ultimately, the ending project was very different from the one that they initially assigned. I first designed the webpages based on the wireframes they provided me but I later sketched my own wireframes through paper. I made menubar.css to give the overall styling of the webpages for Sousmate.
 
-This project was initally assigned to me by Revature through its RevaturePro online program you can find here, https://revature.com/learn-to-code/ As I worked more on the project I decided to add my own unique touches to it. Ultimately, the ending project was very different from the one that they initially assigned. I first designed the webpages based on the wireframes they gave me but I later sketched my own wireframes through paper. I made menubar.css to give the overall styling of the webpages for Sousmate.
+# Web Pages 
+---
 
 the cookAPI.js randomly inputs meal titles and images to the Sous News Page. Also if you click on the "Go to recipe"  button, you can access it on the Sous Recipe Page
 
