@@ -1,0 +1,82 @@
+/* CSS for timer.html
+Defines style of it */
+
+#timer {
+width: 50%;
+margin: auto;
+margin-top: 1em;
+top: 50%;
+}
+#timer span {
+font-size: 3em;
+
+}
+#reset {
+display: inline;
+border-radius: 100px;
+padding: 32px;
+font-size: 1em;
+background-color: #FF8080;
+margin-top: 10px;
+margin: 0 20px;
+color: #ffffff;
+
+}
+
+#reset:hover {
+	background-color: #FF0842;
+}
+
+#start {
+display: inline;
+border-radius: 100px;
+padding: 32px;
+font-size: 1em;
+background-color: #00bfff;
+margin-top: 10px;
+margin: 0 20px;
+color: #ffffff;
+
+}
+
+#start:hover {
+	background-color: #0080ff;
+}
+
+#editTimeBox{
+
+border: 1px solid black;
+height: 500px;
+width: 50%;
+position: relative;
+margin: 0 auto;
+border-radius: 4px;
+top: 0;
+
+}
+#editTimeBox #theInput
+{
+border-bottom: 1px solid;
+padding-right: 5px;
+}
+
+#editTimeBox input[type=submit]
+{
+padding: 5px;
+font-size: 12px;
+}
+
+#theInput input[type=number]
+{
+margin: 0 5px;
+margin-top: 4px;
+}
+
+#theInput input[name=seconds]
+
+{
+margin: 0;
+margin-top: 4px;
+margin-left: 5px;
+
+}
