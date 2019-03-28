@@ -17,4 +17,6 @@ SousHome.html is the Sous News page displaying pictures of random recipes the us
 
 SousIndex.html represents the home page of the website
 
+timer.html Sous Timer Page that allows user to measure an amount of time that they have set. It behaves like a stop watch 
+
 Contactold.html is the Sous Contact page I plan to update this
