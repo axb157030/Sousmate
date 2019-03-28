@@ -2,4 +2,4 @@
 
 the cookAPI.js randomly inputs meal titles and images to the Sous News Page. Also if you click on the "Go to recipe"  button, you can access it on the Sous Recipe Page
 
-Sous Recipe Page that displays recipes the user requested or clicked on
+recipeInstruc.html is the Sous Recipe Page that displays recipes the user requested or clicked on
