@@ -4,6 +4,8 @@ the cookAPI.js randomly inputs meal titles and images to the Sous News Page. Als
 
 recipeInstruc.html is the Sous Recipe Page that displays recipes the user requested or clicked on
 
-SousHome.html is the Sous News page displaying pictures of random recipes the user can click on to find out the recipe of.
+SousHome.html is the Sous News page displaying pictures of random recipes the user can click on to find out the recipe of
 
-SousIndex.html represents the home page of the website.
+SousIndex.html represents the home page of the website
+
+Contactold.html is the Sous Contact page I plan to update this
