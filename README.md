@@ -4,7 +4,7 @@ Sousmate is an interactive user friendly website that works with the MealDB API 
 * [View Website](https://axb157030.github.io/Sousmate/SousIndex.html)
 
 # Description
-This project was initally assigned to me by Revature through its RevaturePro online program you can find here, https://revature.com/learn-to-code/. As I worked more on the project I decided to add my own unique touches to it. Ultimately, the ending project was very different from the one that they initially assigned. I first designed the webpages based on the wireframes they provided me but I later sketched my own wireframes through paper. I made menubar.css to give the overall styling of the webpages for Sousmate.
+This project was initally assigned to me by Revature through its RevaturePro online program you can find here, https://revature.com/learn-to-code/. As I worked more on the project I decided to go above and beyond and add my own unique touches to it. Ultimately, the ending project was very different from the one that they initially assigned. I first designed the webpages based on the wireframes they provided me but I later sketched my own wireframes through paper. I made menubar.css to give the overall styling of the webpages for Sousmate.
 
 # Web Pages 
 
